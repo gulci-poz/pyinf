@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 name = "gulci"
 greeting = "Hello, World!"
 strip_test = " Hello, World!"
@@ -20,8 +22,10 @@ print(name * 2)
 
 print(greeting.split(','))
 
+# strip() sprawdza string z obu stron
 print("|" + strip_test)
 print("|" + strip_test.strip())
 
+# rstrip() sprawdza string tylko z prawej strony
 print(rstrip_test + "|")
-print(rstrip_test.strip() + "|")
+print(rstrip_test.rstrip() + "|")
